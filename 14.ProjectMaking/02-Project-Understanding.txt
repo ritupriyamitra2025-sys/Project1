@@ -1,0 +1,108 @@
+Litigation Automation Project — Project Understanding
+
+Version: 1 (7 October 2026) · Source: 01-Original-Instructions/2026-10-07_U-1_Project-Plan_ORIGINAL.docx · Status: planning only; not started.
+
+  The owner’s folder names below are suggestions. The AI may change the structure, names and sub-folders if it serves the end goal better. Any change must be recorded in 03-Instruction-Log.md and in this document.
+
+1. End goal
+
+The owner places any new court paper into the project. Examples are an order from any court, a filing by the other party, or the owner’s own court-stamped filing. The project then does the needed work with very little further instruction. It:
+
+1.  Saves and numbers the paper, and makes a same-name text file.
+2.  Sorts it by court and by type: procedural, merits, or both.
+3.  Links it into the history of that issue (trackback).
+4.  Works out the next step and the due date under the court’s rules.
+5.  Prepares the next filing as Word and PDF, with record cross-references and the cited case law.
+6.  Tests the filing as the opposing top attorney and as the judge would (devil’s advocate), and fixes the weak points.
+7.  Delivers a README: what to file, which court, by what date, what to attach — “your file is ready”.
+
+The project must run under any AI (Claude, Cursor, ChatGPT and others). It uses relative paths so the whole folder can move between drives.
+
+Courts: any USA court (trial, appeal, supreme), plus Canada and India, ready for when cases arise there.
+
+2. Workflow (one new paper)
+
+    1  Inbox (raw paper)
+    → 2  Source library (numbered, + .txt)
+    → 3  Procedural / Merits (both if mixed)
+    → 4  Trackback chain for the issue (+ 2 zips)
+    → 11 Orders index (if it is an order)
+    → 6  Rules: next step and deadline (rule number + source)
+    → 12 Preparation folder for the due date (DOCX + PDF, record refs, case law)
+    → 10 Devil's advocate review → corrections → review points closed
+    → README "ready to file"
+
+If the owner files a motion, folder 10 also predicts the opponent’s likely response and a likely order. When the real response arrives, the prepared reply is fine-tuned.
+
+3. Folder map (owner’s suggestion, current baseline)
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #                       Folder                                              Purpose
+  ----------------------- --------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1                       Raw-data-filed-In-court                             Inbox for any new paper (court orders, other party’s filings, own stamped filings, emails + attachments).
+
+  2                       All-Source-data-AtOnePlace                          Every paper by court, with a sequence number and a same-name .txt. Appeal: continues 1–170 → 171… Trial: by docket number. Supreme Court: internal 1, 2, 3…
+
+  3                       Segregating…Procedural-NonProcedural                Procedural (extensions, notices of appearance, attorney withdrawal) vs merits. If mixed → copy into both. A “both” folder only for rare unclear cases.
+
+  4                       TrackBack-Documents                                 Full chain per issue: trial motion → response → reply → order → appeal (commissioner, motion to modify) → Supreme Court. Index plus two zips: (a) structured; (b) flat with a read-me for AIs that cannot read folders.
+
+  5                       All Imp files for quick reference                   CPs (12 volumes), key trial and appeal documents, arbitration papers, recent filings — each PDF with a .txt.
+
+  6                       Rules                                               The brain. Master instructions any AI can run; general rules plus one rule file per court; token, memory and iteration management; status with times shown at the start and end; no stopping at midnight or waiting without cause.
+
+  7                       Audio-Support-For-Prep-Docs                         Owner’s voice notes → numbered text (19 exist; next = 20). Sub-folder “What I want”. Optional master file.
+
+  8                       Audio-Support-to-understand-the prepared file       Bengali HTML reader for each final document (same method as the existing “English to bengali – Original” project).
+
+  9                       Better-Structural points and logic Implementation   Master style guide: best introductions, exhibit tables, structures, with file references. Built last.
+
+  10                      How other AI will run the project                   (a) Opponent and judge simulation for each final filing; (b) active review log, dated, with points closed one by one (including reviews pasted from other AIs).
+
+  11                      All the orders from different courts – Quick ref    All orders by court → procedural vs merits, keeping the original order number; index with short descriptions; Canada and India ready.
+
+  12                      Preparation-Date-wise-Upcoming-File                 One folder per due date: DOCX + PDF, record-reference cross-check, case-law list plus full texts, devil’s advocate hand-off.
+
+  13                      Helps-For-Already-Created-Not-Filed-File            Last-minute check of drafts the owner already wrote: build the trackback, apply the rules, recommend improvements.
+
+  14                      ProjectMaking                                       This folder: original instructions, this document, the dated instruction log.
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Historical data (one-time, after “start”)
+
+-   Sources: F:\ (mainly F:\2ndOctober, F:\2ndOctober\Final structure, and the other projects), then C:\Users\Ritupriya\Downloads\brief, ...\brief\Audio, ...\brief\2.Structured-Way-Appeal-Data, ...\brief\6.Trial-Courts-Orders\Project_for_orders, ...\Downloads\English to bengali - Original, and C:\Users\Ritupriya\Downloads for Canada data.
+-   COPY ONLY — never move or delete originals. Copy only important files. Skip duplicates, old drafts, temporary and empty files.
+-   Show the owner a copy / skip list and get approval before copying.
+-   Scan every old project for good rules → into folder 6.
+-   The owner deletes the old folders manually, only after this project is proven to work.
+
+5. Safeguards (legal accuracy)
+
+-   Every deadline is tied to a rule number and source, plus the date it was checked. The owner confirms deadlines before relying on them.
+-   Every case citation is verified against a real database (for example CourtListener) before it goes into a filing. AI can invent cases.
+-   Scanned PDFs: convert to text (OCR) and mark pages that may contain errors.
+-   No papers are sealed or confidential (owner, 2026-10-07).
+
+6. Decisions so far
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Date                                Decision
+  ----------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------
+  2026-10-07                          Courts: any USA court plus Canada and India. Rules = general rules plus one file per court with an actual case.
+
+  2026-10-07                          Voice notes: 19 exist; next number 20.
+
+  2026-10-07                          Run the project from Claude Code on the owner’s PC (local folder), because the cloud session cannot see F: or C:.
+
+  2026-10-07                          A filing is due in 2–3 weeks: do it first (rules for that court, trackback, check or prepare the draft, devil’s advocate); full build after.
+
+  2026-10-07                          Copy only; never move or delete. Copy/skip list approved by the owner first.
+
+  2026-10-07                          Folder structure is a suggestion; the AI may improve it. Relative paths are mandatory. Nothing except folder 14 before “start”.
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. Open questions
+
+1.  The urgent filing: which court, what due date, what type of document, and is there already a draft?
+2.  Folder 1: after processing a new paper, keep the original in folder 1 (AI suggestion) or empty folder 1?
+3.  AI suggestions not yet approved: a START-HERE.md file at the project root; one master file list (number, court, date, type, procedural/merits, path) that all indexes are generated from.
