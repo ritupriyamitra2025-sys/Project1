@@ -20,4 +20,4 @@ If a chat is lost, start a new session and read this folder first.
 6. Every `.docx` / `.pdf` has a `.txt` file with the same name next to it.
 
 ## Current status (update this line every session)
-**2026-10-07 — Planning only. The owner has NOT said "start". Only folder 14 may be created before "start".**
+**2026-10-07 — Planning only. The owner has NOT said "start". Created so far: folder 14, and `../6.Rules/Chat` (saved chats, at the owner's request).**

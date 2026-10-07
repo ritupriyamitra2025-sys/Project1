@@ -70,6 +70,19 @@ Only the uploaded plan has been read.
 
 The owner copies this folder to `F:\6th October -2026\14.ProjectMaking`, or the local session pulls it from the repo.
 
+**U-10** — Asked during A-9: "Did you understand anything or not?" Then: "I am worried."
+
+**A-10** — Answered honestly:
+- What is safe: no files touched; the plan and log are saved.
+- What cannot be promised: perfect deadlines or citations without checking; in return, every deadline will show its rule number and every case will be checked against a real database.
+- The fastest safe path for the urgent filing does not need the full project.
+
+Asked what the owner is most worried about.
+
+**U-11** — "F:\6th October -2026\6.Rules\Chat — this one also": save this chat in `6.Rules/Chat`.
+
+**A-11** — Saved the full chat (owner messages plus AI replies, tool steps left out) as `../6.Rules/Chat/2026-10-07_Chat-01_Project-Planning.md`, with a `README.md` index. The owner copies `6.Rules/Chat` to `F:\6th October -2026\6.Rules\Chat`. Future chats are saved as Chat-02, Chat-03, and so on.
+
 ---
 
 ### Open items
